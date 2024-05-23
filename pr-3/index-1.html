@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1 style="font-size: 18px;"></h1>
+  <h2 id="c"></h2>
+    
+  <script>
+    let x = 100;
+    let y = 0;
+    let z = x;
+    let yes = " number is an armstrong number"
+    let no = "number is not  an armstrong number"
+
+    while (z > 0) {
+        let r = z % 10;
+        y += r * 3;
+        z = parseInt(c / 10);
+
+
+    }
+
+    document.getElementById("c").innerHTML = x;
+
+    if (y == x) {
+        document.querySelector("h1").innerHTML = yes;
+    } else {
+        document.querySelector("h1").innerHTML = no;
+
+    }
+  </script>
+</body>
+</html>

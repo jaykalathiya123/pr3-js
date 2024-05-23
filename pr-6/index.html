@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="prime"></h2>
+    <script>
+        let n = 17;
+        let p = 1;
+        let pr = document.getElementById("prime");
+
+        while (p < n) {
+            if (n % p == 0) {
+                pr.innerHTML += (`${n} is not a prime number <br/>`);
+                break;
+            }
+            else {
+                pr.innerHTML += (`${n} is a  prime number <br/>`);
+            }
+            p++;
+        }
+    </script>
+</body>
+</html>
